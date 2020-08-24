@@ -6,8 +6,6 @@ function FoodInput(){
         <>
             <h3>Select your Food and Amount</h3>
             <DropdownMenu />
-            
-            
         </>
     );
 }
