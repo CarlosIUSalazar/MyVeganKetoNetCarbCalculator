@@ -10,6 +10,12 @@ function Results(props){
             
                 <h5>Total Protein is:</h5>
                 <span><p className="proteinTotal">{ props.proteinTotal } grams</p></span>
+
+                <h5>Total Fat is:</h5>
+                <span><p className="fatTotal">{ props.fatTotal } grams</p></span>
+
+                <h5>Total Calories is:</h5>
+                <span><p className="caloriesTotal">{ props.caloriesTotal } grams</p></span>
             </div>
         </>
     )
