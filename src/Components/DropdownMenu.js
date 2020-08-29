@@ -26,9 +26,11 @@ function DropdownMenu(props){
                 
             />
             </div>
+            <br />
             <span><input ref={foodGrams} type="text" defaultValue={0}></input>grams</span>
             <br />
-            <button onClick={() => props.updateGrandTotal(foodGrams.current.value, selectedValue)}>+</button>
+            <br />
+            <button className="myButton" onClick={() => props.updateGrandTotal(foodGrams.current.value, selectedValue)}>+</button>
 
         </>
     )
