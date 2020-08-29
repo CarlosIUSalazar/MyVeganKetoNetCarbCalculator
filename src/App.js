@@ -17,7 +17,7 @@ function App() {
 
   function updateGrandTotal(eatenGrams, foodName){
     
-    console.log("eatenGrams, netCarbs, Protein", eatenGrams, foodName.netCarbs, foodName.protein,)
+    //console.log("eatenGrams, netCarbs, Protein", eatenGrams, foodName.netCarbs, foodName.protein,)
     
     //Add Selected food to table
     tableOfFoods.push({food:foodName.name, grams: eatenGrams, carbs:((foodName.netCarbs * parseInt(eatenGrams)/100)).toFixed(2)})
