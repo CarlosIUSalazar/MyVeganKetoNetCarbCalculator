@@ -15,21 +15,20 @@ function App() {
 
   function updateGrandTotal(eatenGrams, foodName){
     
-    //console.log("Foodname, protein, netCarbs",foodName, foodName.protein, foodName.netCarbs)
+    console.log("eatenGrams, netCarbs, Protein", eatenGrams, foodName.netCarbs, foodName.protein,)
 
     //Add to Net Carb Grand Total
-    setGrandTotal((parseInt(grandTotal) + (parseInt(eatenGrams/100) * foodName.netCarbs)).toFixed(2))
+    setGrandTotal((parseInt(grandTotal) + ((parseInt(eatenGrams)/100) * foodName.netCarbs)).toFixed(2))
     
     //Add Selected food to table
-    tableOfFoods.push({food:foodName.name, grams: eatenGrams, carbs:((foodName.netCarbs * parseInt(eatenGrams/100))).toFixed(2)})
+    tableOfFoods.push({food:foodName.name, grams: eatenGrams, carbs:((foodName.netCarbs * parseInt(eatenGrams)/100)).toFixed(2)})
     
     //Calculate and Add to Total Protein
-    setProteinTotal((parseInt(proteinTotal) + parseInt(foodName.protein)).toFixed(2))
+    setProteinTotal((parseInt(proteinTotal) + ((parseInt(eatenGrams)/100) * foodName.protein)).toFixed(2))
   
   }
 
   
-
   // function updateTableOfFoods(newFood){
   //   setTableOfFoods(tableOfFoods.push(newFood))
   // }
@@ -47,7 +46,7 @@ function App() {
         grandTotal={grandTotal}
         proteinTotal={proteinTotal}  
       />
-      <Table tableOfFoods={tableOfFoods}/>
+      <Table tableOfFoods={tableOfFoods} setTableOfFoods={setTableOfFoods}/>
     </div>
     </center>
   );
