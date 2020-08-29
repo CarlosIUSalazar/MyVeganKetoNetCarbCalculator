@@ -15,7 +15,7 @@ function Results(props){
                 <span><p className="fatTotal">{ props.fatTotal } grams</p></span>
 
                 <h5>Total Calories is:</h5>
-                <span><p className="caloriesTotal">{ props.caloriesTotal } grams</p></span>
+                <span><p className="caloriesTotal">{ props.caloriesTotal }</p></span>
             </div>
         </>
     )
