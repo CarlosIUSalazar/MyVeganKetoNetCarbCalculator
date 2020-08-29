@@ -41,13 +41,13 @@ function App() {
   // }
 
   return (
-    <center>
+    
     <div className="App">
+      <center>
       <Header />
       <DropdownMenu 
         updateGrandTotal={updateGrandTotal} 
         grandTotal={grandTotal}
-
       /> 
       <Results 
         grandTotal={grandTotal}
@@ -56,8 +56,9 @@ function App() {
         fatTotal={fatTotal}
       />
       <Table tableOfFoods={tableOfFoods} setTableOfFoods={setTableOfFoods}/>
+      </center>
     </div>
-    </center>
+    
   );
 }
 

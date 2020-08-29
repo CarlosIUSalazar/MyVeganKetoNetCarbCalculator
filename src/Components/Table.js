@@ -35,16 +35,3 @@ function Table(props){
 }
 
 export default Table;
-
-
-
-    // const foodTable = {
-    //     columnDefs: [
-    //       { headerName: "Food", field: "food" },
-    //       { headerName: "Grams", field: "grams" },
-    //       { headerName: "Carbs", field: "carbs" }],
-    //     rowData: [
-    //       { food: "Toyota", grams: "Celica", carbs: 35000 },
-    //       { food: "Ford", grams: "Mondeo", carbs: 32000 },
-    //       { food: "Porsche", grams: "Boxter", carbs: 72000 }]
-    //   }
