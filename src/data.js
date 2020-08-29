@@ -7,17 +7,17 @@ const data = [
         netCarbs: 8.5,
         fat: 50.4,
         sugar: 4.4,
-        protein: 20.9,
+        protein: 20.9
     },
     {
         value: 2,
-        name: "Almonds Yogurt (Kabuku) 🥔",
+        name: "Almonds Yogurt 🥔",
         calories: 90,
         totalCarbs: 8.6,
         netCarbs: 4.7,
         fat: 6,
         sugar: 4.7,
-        protein: 2.4,
+        protein: 2.4
     },
     {
         value: 3,
@@ -27,7 +27,7 @@ const data = [
         netCarbs: 9.1,
         fat: 50,
         sugar: 4.2,
-        protein: 21.1,
+        protein: 21.1
     },
     {
         value: 4,
@@ -37,7 +37,7 @@ const data = [
         netCarbs: 1.3,
         fat: 14,
         sugar: 0.7,
-        protein: 2,
+        protein: 2
     },
     {
         value: 5,
@@ -47,7 +47,7 @@ const data = [
         netCarbs: 12,
         fat: 0.3,
         sugar: 10,
-        protein: 0.7,
+        protein: 0.7
     },
     {
         value: 6,
@@ -57,7 +57,7 @@ const data = [
         netCarbs: 4.8,
         fat: 66,
         sugar: 2.34,
-        protein: 14.4,
+        protein: 14.4
     },
     {
         value: 7,
@@ -67,7 +67,7 @@ const data = [
         netCarbs: 3.9,
         fat: 0.4,
         sugar: 1.4,
-        protein: 2.4,
+        protein: 2.4
     },
     {
         value: 8,
@@ -77,7 +77,7 @@ const data = [
         netCarbs: 3.6,
         fat: 0.1,
         sugar: 2.8,
-        protein: 1.3,
+        protein: 1.3
     },
     {
         value: 9,
@@ -87,7 +87,7 @@ const data = [
         netCarbs: 6.9,
         fat: 0.2,
         sugar: 7.9,
-        protein: 0.8,
+        protein: 0.8
     },
     {
         value: 10,
@@ -97,7 +97,7 @@ const data = [
         netCarbs: 1.8,
         fat: 0.5,
         sugar: 2.1,
-        protein: 1.8,
+        protein: 1.8
     },
     {
         value: 11,
@@ -107,7 +107,7 @@ const data = [
         netCarbs: 1.8,
         fat: 0.5,
         sugar: 2.1,
-        protein: 1.8,
+        protein: 1.8
     },
     {
         value: 12,
@@ -117,7 +117,7 @@ const data = [
         netCarbs: 27,
         fat: 22.3,
         sugar: 0,
-        protein: 0.6,
+        protein: 0.6
     },
     {
         value: 13,
@@ -127,7 +127,7 @@ const data = [
         netCarbs: 6.2,
         fat: 30.8,
         sugar: 0,
-        protein: 15.6,
+        protein: 15.6
     },
     {
         value: 14,
@@ -137,7 +137,7 @@ const data = [
         netCarbs: 21.4,
         fat: 14.3,
         sugar: 7.2,
-        protein: 14.3,
+        protein: 14.3
     },
     {
         value: 15,
@@ -147,7 +147,7 @@ const data = [
         netCarbs: 4.5,
         fat: 20.2,
         sugar: 4.3,
-        protein: 1.6,
+        protein: 1.6
     },
     {
         value: 16,
@@ -157,7 +157,7 @@ const data = [
         netCarbs: 2.6,
         fat: 0.2,
         sugar: 2.6,
-        protein: 0.7,
+        protein: 0.7
     },
     {
         value: 17,
@@ -167,7 +167,7 @@ const data = [
         netCarbs: 2.4,
         fat: 0.1,
         sugar: 1.7,
-        protein: 0.7,
+        protein: 0.7
     },
     {
         value: 18,
@@ -177,7 +177,7 @@ const data = [
         netCarbs: 1.6,
         fat: 42.3,
         sugar: 1.6,
-        protein: 18.3,
+        protein: 18.3
     },
     {
         value: 19,
@@ -187,7 +187,7 @@ const data = [
         netCarbs: 4.7,
         fat: 48.9,
         sugar: 1.5,
-        protein: 31.6,
+        protein: 31.6
     },
     {
         value: 20,
@@ -197,7 +197,7 @@ const data = [
         netCarbs: 8.3,
         fat: 0.1,
         sugar: 8.1,
-        protein: 0.8,
+        protein: 0.8
     },
     {
         value: 21,
@@ -207,7 +207,7 @@ const data = [
         netCarbs: 6.6,
         fat: 0.2,
         sugar: 2.5,
-        protein: 0.3,
+        protein: 0.3
     },
     {
         value: 22,
@@ -217,7 +217,7 @@ const data = [
         netCarbs: 4.9,
         fat: 76.5,
         sugar: 4.2,
-        protein: 7.8,
+        protein: 7.8
     },
     {
         value: 23,
@@ -227,7 +227,7 @@ const data = [
         netCarbs: 20,
         fat: 0,
         sugar: 0,
-        protein: 40,
+        protein: 40
     },
     {
         value: 24,
@@ -237,7 +237,7 @@ const data = [
         netCarbs: 0,
         fat: 0.5,
         sugar: 0,
-        protein: 4.6,
+        protein: 4.6
     },
     {
         value: 25,
@@ -247,7 +247,7 @@ const data = [
         netCarbs: 5.4,
         fat: 0.7,
         sugar: 4.4,
-        protein: 1.2,
+        protein: 1.2
     },
     {
         value: 26,
@@ -257,7 +257,7 @@ const data = [
         netCarbs: 5.3,
         fat: 0.2,
         sugar: 3.8,
-        protein: 1.4,
+        protein: 1.4
     },
     {
         value: 27,
@@ -267,7 +267,7 @@ const data = [
         netCarbs: 25.2,
         fat: 37.5,
         sugar: 0,
-        protein: 25,
+        protein: 25
     },
     {
         value: 28,
@@ -277,7 +277,7 @@ const data = [
         netCarbs: 3.5,
         fat: 2.4,
         sugar: 2.4,
-        protein: 24.8,
+        protein: 24.8
     },
     {
         value: 29,
@@ -287,7 +287,7 @@ const data = [
         netCarbs: 9.2,
         fat: 48.1,
         sugar: 6.3,
-        protein: 17,
+        protein: 17
     },
     {
         value: 30,
@@ -297,7 +297,7 @@ const data = [
         netCarbs: 5.6,
         fat: 1.8,
         sugar: 4,
-        protein: 3.3,
+        protein: 3.3
     },
     {
         value: 31,
@@ -307,7 +307,7 @@ const data = [
         netCarbs: 2.4,
         fat: 2.1,
         sugar: 1,
-        protein: 3.5,
+        protein: 3.5
     },
     {
         value: 32,
@@ -317,7 +317,7 @@ const data = [
         netCarbs: 5.5,
         fat: 0.3,
         sugar: 4.9,
-        protein: 0.7,
+        protein: 0.7
     },
     {
         value: 33,
@@ -327,7 +327,7 @@ const data = [
         netCarbs: 0,
         fat: 8,
         sugar: 0,
-        protein: 76,
+        protein: 76
     },
     {
         value: 34,
@@ -337,7 +337,7 @@ const data = [
         netCarbs: 3.8,
         fat: 10.8,
         sugar: 2.7,
-        protein: 20.3,
+        protein: 20.3
     },
     {
         value: 35,
@@ -347,7 +347,7 @@ const data = [
         netCarbs: 1.6,
         fat: 4.8,
         sugar: 0,
-        protein: 8,
+        protein: 8
     },
     {
         value: 36,
@@ -357,7 +357,7 @@ const data = [
         netCarbs: 2.7,
         fat: 2,
         sugar: 2.6,
-        protein: 0.9,
+        protein: 0.9
     },
     {
         value: 37,
@@ -367,7 +367,7 @@ const data = [
         netCarbs: 3.8,
         fat: 23.3,
         sugar: 3.9,
-        protein: 6.6,
+        protein: 6.6
     },
     {
         value: 38,
@@ -377,8 +377,8 @@ const data = [
         netCarbs: 6.8,
         fat: 65.4,
         sugar: 2.6,
-        protein: 15.3,
-    },,
+        protein: 15.3
+    },
     {
         value: 39,
         name: "Watermelon 🍉",
@@ -387,8 +387,8 @@ const data = [
         netCarbs: 7.1,
         fat: 0.1,
         sugar: 6.2,
-        protein: 0.6,
-    },,
+        protein: 0.6
+    },
     {
         value: 40,
         name: "Wheat gluten 🥖",
@@ -397,16 +397,8 @@ const data = [
         netCarbs: 13.2,
         fat: 1.9,
         sugar: 0,
-        protein: 75.3,
-    },
-    
+        protein: 75.3
+    }
 ]
 
 export default data;
-
-
-// {
-//     value: 16,
-//     name: "Watermelon 🍉",
-//     netCarbs: 7.1
-// }

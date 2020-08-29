@@ -7,16 +7,12 @@ import data from '../data'
 function DropdownMenu(props){
 
     const foodGrams = useRef(0);
-    const [totalCarbs, setTotalCarbs] = useState(0)
     const [selectedValue, setSelectedValue] = useState("Select a Food")
 
     const handleChange = obj => {
         setSelectedValue(obj)
     }
 
-    function updateTotalCarbs(amount){
-        setTotalCarbs(amount)
-    }
 
     return (
         <>

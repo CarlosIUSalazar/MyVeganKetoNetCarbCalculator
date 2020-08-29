@@ -13,9 +13,6 @@ function Table(props){
         rowData:[]
     }
 
-    //{ food: "Ford", grams: "Mondeo", carbs: 32000 },
-
-      console.log("props",props)
 
       function insertObjets(props){
         for (let obj of props.tableOfFoods){
@@ -26,7 +23,6 @@ function Table(props){
       }
 
       insertObjets(props)
-    console.log("foodTable",foodTable)
 
     return (
         <div className="ag-theme-alpine" style={ {height: '200px', width: '600px'} }>
