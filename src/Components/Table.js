@@ -13,7 +13,6 @@ function Table(props){
         rowData:[]
     }
 
-
       function insertObjets(props){
         for (let obj of props.tableOfFoods){
             let newObj = {food:obj.food, grams:obj.grams, carbs:obj.carbs}
