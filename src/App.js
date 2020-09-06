@@ -18,7 +18,6 @@ function App() {
   function updateGrandTotal(eatenGrams, foodName){
     
     //console.log("eatenGrams, netCarbs, Protein", eatenGrams, foodName.netCarbs, foodName.protein,)
-    
     //Add Selected food to table
     tableOfFoods.push({food:foodName.name, grams: eatenGrams, carbs:((foodName.netCarbs * parseInt(eatenGrams)/100)).toFixed(2)})
     
@@ -35,7 +34,6 @@ function App() {
     setCaloriesTotal((parseInt(caloriesTotal) + ((parseInt(eatenGrams)/100) * foodName.calories)).toFixed(2))
   }
 
-  
   // function updateTableOfFoods(newFood){
   //   setTableOfFoods(tableOfFoods.push(newFood))
   // }
